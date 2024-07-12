@@ -13,12 +13,7 @@ setup(
     description="Python library for document clustering",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=["numpy>=1.22.0"],
+    install_requires=["numpy>=1.22.0", "scikit-learn==1.1.0", "matplotlib==3.5.1"],
     keywords=['document clustering', 'clustering labeling'],
     packages=find_packages()
 )
-# Dec 31, 2021 numpy>=1.22.0  scikit-learn 1.0.2
-
-# 1.23.5
-
-# matplotlib v3.5.1 Dec 11, 2021
